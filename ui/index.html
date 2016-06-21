@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br" ng-app="app">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <title></title>
+
+    <!-- Template -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+
+</head>
+<body ng-controller="appController">
+
+<div ng-include="'view/nav.html'"></div>
+
+<div class="container" ng-view></div>
+
+<div ng-include="'view/footer.html'"></div>
+
+<!-- Angular dependecies -->
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="bower_components/angular-i18n/angular-locale_pt-br.js"></script>
+<script src="bower_components/angular-messages/angular-messages.min.js"></script>
+<script src="bower_components/angular-route/angular-route.min.js"></script>
+<script src="bower_components/angular-cookies/angular-cookies.min.js"></script>
+
+<!-- Template -->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<!-- Module dependecy -->
+<script src="js/config/app.js"></script>
+<script src="js/config/route.js"></script>
+
+<!-- Services -->
+<script src="js/service/httpService.js"></script>
+<script src="js/service/loginService.js"></script>
+
+<!-- Controllers -->
+<script src="js/controller/appController.js"></script>
+<script src="js/controller/loginController.js"></script>
+<script src="js/controller/homeController.js"></script>
+
+</body>
+</html>

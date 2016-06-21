@@ -1,0 +1,20 @@
+{
+  "name": "heatmap-admin",
+  "authors": [
+    "João <joao.p.merlin@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "/",
+  "dependencies": {
+    "angular": "latest",
+    "angular-messages": "latest",
+    "angular-i18n": "latest",
+    "angular-route": "latest",
+    "bootstrap": "latest",
+    "angular-cookies": "latest",
+    "jquery": "latest"
+  }
+}
